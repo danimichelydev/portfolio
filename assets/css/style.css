@@ -384,6 +384,12 @@ form, input, textarea, label{
   display: block;
   width: 100%;
 }
+form span {
+  font-size: .8rem;
+  font-weight: 600;
+  color: red;
+  position: absolute;
+}
 .contact {
   width: 100%;
   height: auto;
@@ -436,6 +442,10 @@ textarea {
 }
 label {
   margin: 10px auto;
+  height: 60px;
+}
+.message{
+  height: 100px;
 }
 form .link {
   margin: 20px auto;

@@ -143,22 +143,24 @@
         <div class="contact-info">
           <img src="./assets/images/girl.png" alt="Imagem de uma garota no computador">
 
-          <form action="#">
-            <h3>Me mande uma mensagem </h3>
+          <!-- <form form action="https://formsubmit.co/danimichelydev@gmail.com" method="POST"> -->
+          <form onsubmit="return false">
+            <h3>Opss... esta área está temporariamente inativa. Me procure pelos outros canais, será um prazer te atender. </h3>
             <label for="name">Nome
-              <input type="text" id="name">
+              <input type="text" name="name" id="name" required>
             </label>
             <label for="email">E-mail
-              <input type="text" id="email">
+              <input type="text" id="email" name="email" required>
             </label>
             <label for="subject">Assunto
-              <input type="text" id="subject">
+              <input type="text" name="subject" id="subject" required> 
             </label>
             <label for="message">Mensagem
-              <textarea type="text" id="message"></textarea>
+              <textarea type="text" name="message" id="message" required></textarea>
             </label>
+            <input type="hidden" name="_captcha" value="false">
             <button class="link" type="submit">Enviar mensagem</button>
-          </form>
+          </formorm>
         </div>
       
       </section>

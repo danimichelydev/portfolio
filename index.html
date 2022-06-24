@@ -46,7 +46,7 @@
             <div class="github"><a href="https://github.com/danimichelydev" target="_blank">
               <img src="./assets/images/github.png" alt="Logo do Github">
               <span>GitHub</span></a></div>
-            <div class="email"><a href="mailto:danimichelydev@gmail.com" target="_blank">
+            <div class="email"><a href="mailto:danimichelydev@gmail.com"/Link text" target="_blank">
               <img src="./assets/images/email.png" alt="Logo em formato de uma carta">
               <span>E-mail</span></a></div>
             <div class="whatsapp"><a href="https://api.whatsapp.com/send?phone=5581988097313&text=Oi%2C%20sou%20Dani.%20Pode%20me%20deixar%20uma%20mensagem%20que%20logo%20te%20retorno." target="_blank">
@@ -143,28 +143,24 @@
         <div class="contact-info">
           <img src="./assets/images/girl.png" alt="Imagem de uma garota no computador">
 
-          <form action="https://formsubmit.co/danimichelydev@gmail.com" method="POST">
-            <h3>Me mande uma mensagem </h3>
+          <!-- <form form action="https://formsubmit.co/danimichelydev@gmail.com" method="POST"> -->
+          <form onsubmit="return false">
+            <h3>Opss... esta área está temporariamente inativa. Me procure pelos outros canais, será um prazer te atender. </h3>
             <label for="name">Nome
-              <input type="text" name="name" id="name">
-              <span></span>
+              <input type="text" name="name" id="name" required>
             </label>
             <label for="email">E-mail
-              <input type="text" id="email" name="email">
-              <span></span>
+              <input type="text" id="email" name="email" required>
             </label>
             <label for="subject">Assunto
-              <input type="text" name="subject" id="subject">
-              <span></span>
+              <input type="text" name="subject" id="subject" required> 
             </label>
-            <label for="message" class="message">Mensagem
-              <textarea type="text" name="message" id="message"></textarea>
-              <span></span>
+            <label for="message">Mensagem
+              <textarea type="text" name="message" id="message" required></textarea>
             </label>
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://danimichely.site/thanks.html">
-            <button class="link" type="submit" class="form-btn">Enviar mensagem</button>
-          </form>
+            <button class="link" type="submit">Enviar mensagem</button>
+          </formorm>
         </div>
       
       </section>
@@ -177,6 +173,7 @@
         HTML5, CSS3 E JAVASCRIPT| 2022</p>
     </div>
   </footer>
+
 
 
   <script src="./assets/js/main.js"></script>

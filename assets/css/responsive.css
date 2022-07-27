@@ -136,3 +136,19 @@
     width: 350px;
   }
 }
+
+@media (max-width: 450px) {
+  .about-right {
+    width: 320px;
+    height: 530px;
+    overflow: hidden;
+
+  }
+  form {
+    width: 350px;
+    padding: 0px;
+  }
+  input, textarea {
+    width: 320px;
+  }
+}

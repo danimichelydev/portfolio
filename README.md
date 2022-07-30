@@ -10,7 +10,7 @@ Olá, bem-vindo(a) ao meu portfólio.
 
 ### Links
 
-- URL: https://dani-michely-portfolio.netlify.app/
+- URL: https://danimichely.site/
 
 ## Meu processo
 

@@ -10,7 +10,7 @@ Olá, bem-vindo(a) ao meu portfólio.
 
 ### Links
 
-- URL: [https://danimichely.site/](https://danimichelydev.github.io/portfolio/)
+- URL: [https://danimichelydev.github.io/portfolio/]
 
 ## Meu processo
 
